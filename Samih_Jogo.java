@@ -83,7 +83,13 @@ abstract class Palavras {
 
 public Personagem(String nome){
 
-    setNome(nome);
+    set_nome(nome);
+}
+
+public Personagem(int tentativas){
+
+    set_tentativas(tentativas);
+
 }
 class Personagem extends Jogador{
 
